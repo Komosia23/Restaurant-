@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TasteBite Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>TasteBite 🍽️</h1>
+  <p>Delicious food, made with love</p>
+  <a href="#menu" class="btn">View Menu</a>
+</header>
+
+<section id="menu">
+  <h2>Our Menu</h2>
+  <div class="menu">
+    <div class="item">
+      <h3>Chicken & Chips</h3>
+      <p>KES 450</p>
+    </div>
+    <div class="item">
+      <h3>Beef Pilau</h3>
+      <p>KES 350</p>
+    </div>
+    <div class="item">
+      <h3>Ugali + Nyama</h3>
+      <p>KES 300</p>
+    </div>
+    <div class="item">
+      <h3>Chapati Beans</h3>
+      <p>KES 200</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+    <img src="https://images.unsplash.com/photo-1555992336-03a23c7b20b6">
+    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe">
+  </div>
+</section>
+
+<section id="reserve">
+  <h2>Reserve a Table</h2>
+  <form onsubmit="sendReservation(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <input type="date" id="date" required>
+    <input type="time" id="time" required>
+    <button type="submit">Reserve via WhatsApp</button>
+  </form>
+</section>
+
+<footer>
+  <p>📍 Eldoret, Kenya</p>
+  <p>© 2026 TasteBite Restaurant</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/254798917694" target="_blank">💬 Order Now</a>
+
+<script src="script.js"></script>
+</body>
+</html>
